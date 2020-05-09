@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             send_start(bot, update)
     else:
-        update.effective_message.reply_text("Yo, I'm alive👩")
+        update.effective_message.reply_text("Yo, Sar I Am Here 😎")
 
 def send_start(bot, update):
     #Try to remove old message
@@ -166,10 +166,10 @@ def send_start(bot, update):
                 
     keyboard = [[
         InlineKeyboardButton(text=tld(chat.id, '🥳Add To Group'),
-                             url="https://t.me/MissSabrina_bot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
+                             url="https://t.me/spiderman_probot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
         ]]
     keyboard += [[
-        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/SabrinaChat")
+        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/spiderbotsupport")
     ]]
 
     update.effective_message.reply_text(
