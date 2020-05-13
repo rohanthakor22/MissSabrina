@@ -35,7 +35,6 @@ Made With Love And Maintained By [This Awesome Person.](t.me/Akkie657)
 
 Special Thanks To [This Noob .](t.me/Spyder_xD) 
 
-Don't Forget To Check out [SpiderMan](t.me/spiderman_probot) 
 
 Want To Add Me Into Your Chats? [Click Here!](https://t.me/TeleMateBot?startgroup=true)
 """
@@ -60,7 +59,6 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Hey you can Donate to [Ayan Ansari](t.me/TechnoAyanOfficial) for better server """
 
 
 IMPORTED = {}
