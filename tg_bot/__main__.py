@@ -59,6 +59,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
+DONATE_STRING = """Hey you can Donate to [Spider](t.me/Spyder_xD) for better server """
 
 
 IMPORTED = {}
