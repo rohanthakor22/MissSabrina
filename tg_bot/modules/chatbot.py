@@ -6,7 +6,7 @@ from coffeehouse.lydia import LydiaAI
 
 from coffeehouse.api import API
 
-from coffeehouse.exception import CoffeeHouseError as CFError
+
 
 from telegram import Message, Chat, User, Update, Bot
 
