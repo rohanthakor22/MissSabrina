@@ -2,9 +2,9 @@
 
 from time import time, sleep
 
-from coffeehouse.lydia import LydiaAI
+from lydia import LydiaAI
 
-from coffeehouse.api import API
+from api import API
 
 
 
